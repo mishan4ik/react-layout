@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c97a2;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.header__logo{
+
+    margin-top: 30px;
+    padding-left: 200px;;
+}
+
+.header__logo h2{
+
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Cherry Swash', cursive;
+    cursor: pointer;
+
+}
+
+.header__menu{
+    padding-right: 200px;
+    padding-top: 25px;;
+    
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu ul li{
+
+    font-size: 18px;
+    font-weight: 700;
+    list-style-type: none ;
+
+
+}
+
+.header__menu ul li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #accacf;
+    font-family: 'Heebo', sans-serif;
+}
+
+.header__menu ul li a>span{
+
+    padding-right: 50px;
+    padding-left: 50px;;
+
+}
+.header__menu ul li:last-child span{
+    display:none;
+}
+
+.header__menu ul li a:hover{
+
+    color: #fff;
+
+}
+.ReadMore{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image:url("../../public/img/headerPage.jpg");
+    min-height:800px;
+    padding-top: 130px;;
+
+}
+.ReadMore__title{
+    
+    display: flex;
+    justify-content: center;;
+    text-align: center;;
+    padding-top: 25px;
+
+}
+.ReadMore__title h1{
+
+    color: #fff;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 15px;
+    width: 40%;
+
+}
+
+.ReadMore__btn{
+
+    padding-top: 100px;
+    text-align: center;
+   
+
+}
+
+.ReadMore__btn a{
+
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+
+.Things{
+
+    padding-top: 100px;
+    padding-bottom: 50px;;
+
+}
+
+
+.Things__title{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;;
+
+}
+
+.Things__title h2{
+
+    font-size: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    width: 27%;
+}
+
+
+.Things__text {
+
+    text-align: center;
+    padding-top: 50px;;
+    display: flex;;
+    justify-content: center;;
+
+}
+
+.Things__text p{
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    width: 50%;;
+
+
+}
+
+.Things__img{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.imageThings:nth-child(2){
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.Reviews{
+    
+    background-color: #00d089;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.Reviews__User{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.Reviews__UserIcon{
+
+    padding-right: 50px;
+
+    
+}
+
+.Reviews__UserName{
+
+    padding-bottom: 50px;;
+
+}
+
+.Reviews__UserName h2{
+
+
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.Reviews__UserComment{
+
+    display: flex;
+    justify-content: center;
+}
+
+.Reviews__UserComment p{
+
+    text-align: left;
+    color: #fff;
+    width: 40%;;
+    font-family: 'Heebo', sans-serif;
+
+}
+.Map{
+    position: relative;
+    width: 100%;
+    height: 100%;;
+    overflow: hidden;
+
+    
+
+}
+
+
+.Map__block iframe{
+    position:absolute;
+    width: 100%;;
+    height: 100%;;
+    
+    
+}
+
+.form{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    border-radius: 50px;
+    
+}
+
+form{
+    position:relative;
+    width: 500px;;
+    height: 400px;;
+    background-color: #fff;
+    padding-top: 200px;
+    text-align: center;;
+    border-radius: 100px;
+    opacity: 0.8;
+
+}
+
+.form___textarea,.form___mail,.form___Name{
+    padding-bottom: 20px;;
+}
+
+.form___textarea textarea {
+
+    width: 300px;
+    height: 100px;;
+
+}
+
+.form___mail input, .form___Name input{
+    width: 300px;
+    height: 30px;
+}
+
+.form___mail input[placeholder="email address"],.form___Name input[placeholder="Name"],
+.form___textarea textarea[placeholder="Message"] {
+    padding-left: 10px;
+    padding-top: 10px;;
+}
+
+.btn__form{
+
+    background-image:url("../../public/img/check.png");
+    width: 100px;
+    height: 100px;
+    border: none;;
+    border-radius: 50px;;
+
+}
+
+.footer{
+
+    background-color: #00d089;
+    text-align: center;
+
+}
+
+.footer h5{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 3px;;
+
+
+}
+
+@media (max-width:1312px){
+
+    .header__menu ul li a>span{
+
+        display: none;;
+    }
+
+    .header{
+        display: block;
+    }
+    .header__logo{
+        margin: 0px;
+    }
+    .header__menu{
+        padding-right: 0px;;
+        padding-left: 200px;;
+    }
+    .header__menu ul li{
+
+        font-size: 14px;
+
+    }
+    .header__menu ul li:nth-child(1),.header__menu ul li:nth-child(2),
+    .header__menu ul li:nth-child(3){
+        padding-right: 10px;
+    }
+    .ReadMore__title h1{
+
+        font-size: 40px;
+        letter-spacing: 10px;
+
+    }
+
+}
+
+@media (max-width:1200px){
+
+    .Things__title h2{
+
+        font-size: 25px;
+
+    }
+
+    form{
+
+        width:400px;
+        height: 400px;
+        padding-top: 100px;
+
+    }
+
+    .btn__form{
+
+        width: 80px;
+        height: 80px;
+        background-position: center;
+
+    }
+    .footer h5{
+
+        font-size: 12px;
+
+    }
+    
+
+}
+@media (max-width:1000px){
+
+    .Things__title h2{
+
+        font-size: 22px;
+
+    }
+    .Reviews__UserName h2{
+
+        font-size: 20px;
+
+    }
+    .ReadMore__title h1{
+
+        font-size: 35px;
+
+    }
+    .ReadMore__btn a{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 25px;
+    }
+    .form___mail input, .form___Name input{
+
+        width: 270px;
+
+    }
+
+    .form___textarea textarea{
+
+        width: 270px;;
+
+    }
+
+    .btn__form{
+
+        width: 75px;
+        height: 75px;
+        background-position: center;
+
+    }
+    form{
+
+        width: 360px;
+
+    }
+
+
+}
+
+@media (max-width:830px){
+
+    .ReadMore__title h1{
+
+        letter-spacing: 5px;
+
+    }
+    .Things__title h2{
+
+        font-size: 18px;
+
+    }
+    .Reviews__UserName h2{
+
+        font-size: 20px;
+
+    }
+
+}
+
+@media (max-width:696px){
+
+    .ReadMore__title h1{
+
+        font-size: 30px;
+
+    }
+    .Things__img{
+        
+        display: block;
+        text-align: center;
+    }
+
+    .form___mail input, .form___Name input{
+
+        width: 250px;
+
+    }
+
+    .form___textarea textarea{
+
+        width: 250px;;
+
+    }
+
+    .btn__form{
+
+        width: 65px;
+        height: 65px;
+        background-position: center;
+
+    }
+    form{
+
+        width: 300px;
+
+    }
+    .Reviews__User{
+
+        display: block;
+        text-align: center;
+
+    }
+    .Reviews__UserIcon{
+
+        padding-right: 0px;
+    }
+
+
+
+}
+@media (max-width:540px){
+
+    .header__menu ul{
+        display: block;
+    }
+
+    .form___mail input, .form___Name input{
+
+        width: 250px;
+
+    }
+
+    .form___textarea textarea{
+
+        width: 250px;;
+
+    }
+
+    .btn__form{
+
+        width: 65px;
+        height: 65px;
+        background-position: center;
+
+    }
+    form{
+
+        width: 300px;
+
+    }
+
+
+}
+@media (max-width:480px){
+
+    .header__logo,.header__menu{
+
+        padding-left: 100px;
+
+    }
+    .ReadMore__title h1{
+
+        font-size: 25px;
+
+    }
+    .ReadMore__btn a{
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 20px;
+    }
+
+
+}
+@media (max-width:380px){
+
+    .form___mail input, .form___Name input{
+
+        width: 200px;
+
+    }
+
+    .form___textarea textarea{
+
+        width: 200px;;
+
+    }
+
+    .btn__form{
+
+        width: 60px;
+        height: 60px;
+        background-position: center;
+
+    }
+    form{
+
+        width: 250px;
+
+    }
+
+}
+
+@media (max-width:320px){
+
+    .header__logo,.header__menu{
+
+        padding-left: 50px;
+
+    }    
+    .form___mail input, .form___Name input{
+
+        width: 185px;
+
+    }
+
+    .form___textarea textarea{
+
+        width: 185px;;
+
+    }
+
+    .btn__form{
+
+        width: 55px;
+        height: 55px;
+        background-position: center;
+
+    }
+    form{
+
+        width: 245px;
+
+    }
+    .ReadMore__title h1{
+
+        font-size: 20px;
+
+    }
+    .ReadMore__btn a{
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+
+
+}
